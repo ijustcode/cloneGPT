@@ -16,7 +16,6 @@ function App() {
   const [result, setResult] = useState("")
   const [input, setInput] = useState("")
 
-  console.log(arrayItems);
   const selectOption = (option) => {
     setOption(option);
   }
