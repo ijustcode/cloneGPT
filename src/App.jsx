@@ -7,8 +7,9 @@ import Translation from './components/Translation';
 import { arrayItems } from './AIOptions';
 import { useState } from 'react';
 function App() {
+  const urlParams = new URLSearchParams(window.location.search);
   const configuration = new Configuration({
-    apiKey: import.meta.env.VITE_Open_AI_Key,
+    apiKey: urlParams.get('apiKey')
   }) 
   const openai = new OpenAIApi(configuration);
   const [option, setOption] = useState({})
