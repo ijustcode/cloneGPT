@@ -14,9 +14,9 @@ export const arrayItems = [
         }
     },
     {
-        name: 'Explain it like I am 8',
+        name: 'Explain it like I am 8 _Under Construction_',
         id: 'eli8',
-        description:'Explain a complex topic in simple terms',
+        description:'Explain a complex topic in simple terms. _Doesn\'t work yet_',
         option: {
             model: "text-davinci-003",
             temperature: 0.7,
@@ -27,9 +27,9 @@ export const arrayItems = [
     }
     },
     {
-        name: 'code meaning',
+        name: 'code meaning _Under Construction_',
         id: 'coder',
-        description:'explains code',
+        description:'explains code. _Doesn\'t work yet_',
         option: {
             model: "code-davinci-002",
             temperature: 0,
