@@ -33,4 +33,4 @@ venv
 # Configs and others
 
 .python-version
-package-lock.json
+# package-lock.json
